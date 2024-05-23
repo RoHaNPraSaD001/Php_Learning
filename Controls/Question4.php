@@ -36,8 +36,8 @@
 </head>
 <body>
 <?php
-    $roll1 = 1400430;
-    $roll2 = 1400431;
+    $roll1 = 24;
+    $roll2 = 51;
     if($roll1){
         $dbms1 = 60;
         $cn1 = 70;
