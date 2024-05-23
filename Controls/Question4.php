@@ -21,14 +21,15 @@
             border-bottom: 1px solid #ddd;
         }
         tr:hover {
-            background-color: coral;
+            background-color: aqua;
             cursor:pointer;
         }
         .heading{
+            padding:40px;
             display:flex;
             align-items:center;
             justify-content:center;
-            background-color: coral;
+            background-color: orange;
         }
  
     </style>
@@ -48,7 +49,7 @@
         $percentage1 = ($total1 * 100)/500;
 
         if($percentage1 >= 60){
-            $division1 = "Fisrt";
+            $division1 = "First";
         }
         else if($percentage1 >= 45 && $percentage1 < 60){
             $division1 = "Second";
