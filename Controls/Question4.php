@@ -21,22 +21,23 @@
             border-bottom: 1px solid #ddd;
         }
         tr:hover {
-            background-color: coral;
+            background-color: aqua;
             cursor:pointer;
         }
         .heading{
+            padding:40px;
             display:flex;
             align-items:center;
             justify-content:center;
-            background-color: coral;
+            background-color: orange;
         }
  
     </style>
 </head>
 <body>
 <?php
-    $roll1 = 1400430;
-    $roll2 = 1400431;
+    $roll1 = 24;
+    $roll2 = 51;
     if($roll1){
         $dbms1 = 60;
         $cn1 = 70;
@@ -48,7 +49,7 @@
         $percentage1 = ($total1 * 100)/500;
 
         if($percentage1 >= 60){
-            $division1 = "Fisrt";
+            $division1 = "First";
         }
         else if($percentage1 >= 45 && $percentage1 < 60){
             $division1 = "Second";
